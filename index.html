@@ -26,6 +26,7 @@
 
 <header class="jumbotron jumbotron-fluid">
 
+<div class="container" id="nav_logo">
   <!-- navigation-->
   <nav class="navbar navbar-light bg-faded">
     <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
@@ -66,36 +67,37 @@
 
   <!--Logos for mobile and large devices-->
   <figure>
-    <img src="img/logo_rose.png" alt="logo air bnb mobile" class="img-fluid">
+    <img src="img/logo_rose.png" alt="logo air bnb mobile" class="img-fluid hidden-sm-up">
   </figure>
   <figure>
-    <img src="img/logo_blanc.png" alt="logo air bnb medium devices" class="img-fluid">
+    <img src="img/logo_blanc.png" alt="logo air bnb medium devices" class="img-fluid hidden-xs-down">
   </figure>
   <!--End of the logos-->
+</div>
 
   <!--Main title-->
-  <div class="container">
+  <div class="container" id="title">
     <h1 class="display-3">Vivez là-bas</h1>
     <p class="lead">Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas comme chez-vous.</p>
   </div>
   <!--End of the main title -->
 
   <!--Start of the search box-->
-  <div class="container-fluid">
+  <div class="container-fluid" id="test">
     <div class="container">
-      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown" id="search">
         <input class="form-control" type="text" placeholder="où ?"></input>
-        <input class="form-control" type="text" placeholder="arrivée"></input>
-        <input class="form-control" type="text" placeholder="départ"></input>
-          <select class="form-control" id="exampleSelect1">
+        <input class="form-control hidden-xs-down" type="text" placeholder="arrivée"></input>
+        <input class="form-control hidden-xs-down" type="text" placeholder="départ"></input>
+        <select class="form-control hidden-xs-down" id="exampleSelect1">
             <option>1 voyageur</option>
             <option>2 voyageurs</option>
             <option>3 voyageurs</option>
             <option>4 voyageurs</option>
             <option>5 voyageurs</option>
-          </select>
-        <button type="button" class="btn btn-danger">Rechercher</button>
-        <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </select>
+        <button type="button" class="btn btn-danger hidden-xs-down">Rechercher</button>
+        <button type="button" class="hidden-sm-up"><i class="fa fa-search" aria-hidden="true"></i></button>
       </div>
     </div>
   </div>
