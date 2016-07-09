@@ -45,7 +45,64 @@
 **/
 
 /**Medium devices (tablets, 48em and up)**/
-@media (min-width: 48em) { ... }
+@media (min-width: 48em) {
+
+.jumbotron {
+  height: 60vh;
+  padding-bottom: 0;
+}
+
+#nav_logo {
+  background-color: transparent;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+#title h1 {
+  font-size: 3.5em;
+}
+
+#title p {
+  font-size: 1.25em;
+}
+
+nav {
+  font-size: 0.9em;
+}
+
+nav a, nav a:hover {
+  color: white;
+}
+
+nav ul li:nth-child(1) {
+  border: 2px solid white;
+  border-radius: 2px;
+}
+
+nav ul li:nth-child(1):hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#black-band {
+  width: 100%;
+  height: 15vh;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+}
+
+#search {
+  flex-wrap: wrap;
+}
+
+#search input, #search select {
+  max-width: 150px;
+}
+
+}
 
 /**Large devices (desktops, 62em and up)**/
-@media (min-width: 62em) { ... }
+@media (min-width: 62em) {
+
+}
