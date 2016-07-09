@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/customize.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="https://use.fontawesome.com/7da34d5640.js"></script>
     </head>
     <body>
 
@@ -26,44 +27,51 @@
 <header class="jumbotron jumbotron-fluid">
 
   <!-- navigation-->
-
-<nav class="navbar navbar-light bg-faded">
-  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
-    &#9776;
-  </button>
-  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
-  <ul class="nav nav-pills">
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Devenez hôte</a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Si vous partagiez votre logement à lille, vous pourriez gagner 163€, devenez hôte!</a>
-      </div>
-    </li>
-  <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">aide</a>
-    <div class="dropdown-menu">
-      <form class="form-inline pull-xs-right">
-        <input class="form-control" type="text" placeholder="Search">
-        <button class="btn btn-success-outline" type="submit">Comment pouvons-nous vous aider ?</button>
-      </form>
-      <a class="dropdown-item" href="#">Article recommandé</a>
-      <a class="dropdown-item" href="#">Guide démarrage</a>
-      <a class="dropdown-item" href="#">Puis-je modifier une réservation en tant qu'hôte</a>
-      <div class="dropdown-divider"></div>
-      <a class="dropdown-item" href="#">Separated link</a>
+  <nav class="navbar navbar-light bg-faded">
+    <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar">
+      &#9776;
+    </button>
+    <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar">
+    <ul class="nav nav-pills">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Devenez hôte</a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="#">Si vous partagiez votre logement à lille, vous pourriez gagner 163€, devenez hôte!</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">aide</a>
+        <div class="dropdown-menu">
+          <form class="form-inline pull-xs-left">
+            <input class="form-control" type="text" placeholder="Comment pouvons-nous vous aider ?">
+            <button class="btn btn-success-outline" type="submit"></button>
+          </form>
+          <a class="dropdown-item" href="#">Article recommandé</a>
+          <a class="dropdown-item" href="#">Guide démarrage</a>
+          <a class="dropdown-item" href="#">Puis-je modifier une réservation en tant qu'hôte</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">inscription</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">connection</a>
+      </li>
+    </ul>
     </div>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">inscription</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">connection</a>
-  </li>
-</ul>
-</div>
-</nav>
-
+  </nav>
   <!--end of the navigation-->
+
+  <!--Logos for mobile and large devices-->
+  <figure>
+    <img src="img/logo_rose.png" alt="logo air bnb mobile" class="img-fluid">
+  </figure>
+  <figure>
+    <img src="img/logo_blanc.png" alt="logo air bnb medium devices" class="img-fluid">
+  </figure>
+  <!--End of the logos-->
 
   <!--Main title-->
   <div class="container">
@@ -71,6 +79,28 @@
     <p class="lead">Réservez des logements auprès d'hôtes locaux dans plus de 191 pays et vivez là-bas comme chez-vous.</p>
   </div>
   <!--End of the main title -->
+
+  <!--Start of the search box-->
+  <div class="container-fluid">
+    <div class="container">
+      <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+        <input class="form-control" type="text" placeholder="où ?"></input>
+        <input class="form-control" type="text" placeholder="arrivée"></input>
+        <input class="form-control" type="text" placeholder="départ"></input>
+          <select class="form-control" id="exampleSelect1">
+            <option>1 voyageur</option>
+            <option>2 voyageurs</option>
+            <option>3 voyageurs</option>
+            <option>4 voyageurs</option>
+            <option>5 voyageurs</option>
+          </select>
+        <button type="button" class="btn btn-danger">Rechercher</button>
+        <button type="button"><i class="fa fa-search" aria-hidden="true"></i></button>
+      </div>
+    </div>
+  </div>
+  <!--End of the search box-->
+
 </header>
 
 <!--
