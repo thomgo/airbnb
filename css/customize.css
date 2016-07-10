@@ -211,7 +211,22 @@ nav ul li:nth-child(1):hover {
     justify-content: center;
   }
 
+/** Main content**/
   #first-content {
-    width: 70%;
+    width: 75%;
+  }
+
+  #first-content figure, #first-content aside {
+    height: 350px;
+  }
+}
+
+@media (min-width: 62em) {
+  #first-content {
+    width: 60%;
+  }
+
+  #first-content aside h2 {
+    font-size: 1.75em;
   }
 }
