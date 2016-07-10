@@ -3,6 +3,11 @@
 ~~~~~~~~~General~~~~~~~~~~~~
 
 **/
+
+body {
+  background-color: #edefed; 
+}
+
 .jumbotron {
   height: 90vh;
   padding-top: 0;
