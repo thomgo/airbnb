@@ -56,6 +56,10 @@ body {
 
 **/
 
+#wrap {
+  padding: 0;
+}
+
 /**First section**/
 
 #first-content {
@@ -156,6 +160,39 @@ nav ul li:nth-child(1):hover {
   max-width: 150px;
 }
 
+/**First section**/
+
+#wrap {
+  display: flex;
+  justify-content: center;
+}
+
+#first-content {
+  width: 90%;
+  display: flex;
+}
+
+#first-content figure {
+  width: 66%;
+  height: 270px;
+}
+
+#first-content figure img {
+  width: 100%;
+}
+
+#first-content aside {
+  height: 270px;
+  color: #484848;
+  background-color: white;
+}
+
+}
+
+@media (min-width: 54em) {
+  #first-content {
+    width: 70%;
+  }
 }
 
 /**Large devices (desktops, 62em and up)**/
@@ -172,5 +209,9 @@ nav ul li:nth-child(1):hover {
   #search {
     width: 100%;
     justify-content: center;
+  }
+
+  #first-content {
+    width: 70%;
   }
 }
