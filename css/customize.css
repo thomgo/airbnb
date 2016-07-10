@@ -229,10 +229,30 @@ nav ul li:nth-child(1):hover {
   background-color: white;
 }
 
+/**Second section**/
+#second-content {
+  width: 90%;
+}
+
+#logements {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;;
+  width: 100%;
+}
+
+#gand {
+  width: 100%;
+}
+
+#bruxelles, #anvers {
+  width: 48%;
+}
+
 }
 
 @media (min-width: 54em) {
-  #first-content {
+  #first-content, #second-content {
     width: 70%;
   }
 
