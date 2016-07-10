@@ -98,6 +98,13 @@ body {
 }
 
 /**Second section **/
+#second-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 #logements figure {
   height: 344px;
   display: flex;
@@ -284,7 +291,7 @@ nav ul li:nth-child(1):hover {
     height: 350px;
   }
 
-  #gand, #bruxelles, #anvers {
+  #gand, #bruxelles, #anvers, #second-content button {
     width: 32%;
   }
 }
