@@ -252,6 +252,7 @@ nav ul li:nth-child(1):hover {
 }
 
 @media (min-width: 54em) {
+
   #first-content, #second-content {
     width: 70%;
   }
@@ -275,17 +276,22 @@ nav ul li:nth-child(1):hover {
   }
 
 /** Main content**/
-  #first-content {
+  #first-content, #second-content {
     width: 75%;
   }
 
   #first-content figure, #first-content aside {
     height: 350px;
   }
+
+  #gand, #bruxelles, #anvers {
+    width: 32%;
+  }
 }
 
-@media (min-width: 62em) {
-  #first-content {
+@media (min-width: 90em) {
+
+  #first-content, #second-content {
     width: 60%;
   }
 
