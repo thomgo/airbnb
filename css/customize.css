@@ -101,8 +101,6 @@ body {
 #second-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 #logements figure {
@@ -143,6 +141,61 @@ body {
 
 #second-content h2 {
   font-weight: bold;
+}
+
+/**
+
+~~~~~~~~~Footer~~~~~~~~~~~~
+
+**/
+
+footer {
+  background-color: #2b2d2e;
+}
+
+footer .container {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  color: white;
+}
+
+footer .container a, #but select {
+  color: white;
+}
+
+footer .container a:hover {
+  text-decoration: none;
+  color: #484848;
+}
+
+#but {
+  display: flex;
+  flex-direction: column;
+}
+
+#but select {
+  background-color: #484848;
+  border: 0px;
+  border-radius: 0;
+}
+
+#social-medias {
+ display: flex;
+ justify-content: space-around;
+}
+
+#facebook, #twitter, #in, #pinterest {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+#social-medias a:hover {
+  opacity: 0.5;
 }
 
 /**
@@ -256,6 +309,46 @@ nav ul li:nth-child(1):hover {
   width: 48%;
 }
 
+/**Footer**/
+footer .container {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+#but {
+  width: 20%;
+}
+
+#lists {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+
+#lists ul {
+  list-style-type: none;
+  text-align: left;
+  font-size: 0.8em;
+  width: 25%;
+}
+
+.head-ul {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+footer div:nth-child(4) {
+  width: 100%;
+  border-top: 0.5px solid #484848;
+}
+
+#social-medias {
+  justify-content: center;
+}
+
+#facebook, #twitter, #in, #pinterest {
+  margin-right: 1em;
 }
 
 @media (min-width: 54em) {
@@ -293,6 +386,10 @@ nav ul li:nth-child(1):hover {
 
   #gand, #bruxelles, #anvers, #second-content button {
     width: 32%;
+  }
+
+  #second-content {
+    align-items: center;
   }
 }
 
