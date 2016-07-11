@@ -230,6 +230,16 @@ nav {
   font-size: 0.9em;
 }
 
+nav .dropdown-menu {
+  border-radius: 0px;
+}
+
+nav .dropdown-menu input {
+  background-color: transparent;
+  max-width: 300px;
+  border: 0;
+}
+
 nav a, nav a:hover {
   color: white;
 }
@@ -237,6 +247,7 @@ nav a, nav a:hover {
 nav ul li:nth-child(1) {
   border: 2px solid white;
   border-radius: 2px;
+  padding: .4em;
 }
 
 nav ul li:nth-child(1):hover {
