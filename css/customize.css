@@ -8,6 +8,9 @@ body {
   background-color: #edefed;
 }
 
+a:hover {
+  text-decoration: none;
+}
 /**
 
 ~~~~~~~~~Header~~~~~~~~~~~~
@@ -31,6 +34,10 @@ body {
   background-color: white;
   width: 100%;
   display: flex;
+}
+
+nav a:focus {
+  color: white;
 }
 
 #title {
@@ -86,6 +93,13 @@ body {
   justify-content: center;
   align-items: center;
   color: white;
+}
+
+#first-content aside button {
+  background-color: #007a87;
+  font-weight: bold;
+  border: 0;
+  border-radius: 2px;
 }
 
 #first-content aside h2 {
