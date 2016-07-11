@@ -74,7 +74,7 @@ nav a:focus {
 }
 
 #first-content figure {
-  width: 100%
+  width: 100%;
   height: 334px;
   overflow: hidden;
 }
@@ -374,6 +374,8 @@ footer div:nth-child(4) {
 
 #facebook, #twitter, #in, #pinterest {
   margin-right: 1em;
+}
+
 }
 
 @media (min-width: 54em) {
