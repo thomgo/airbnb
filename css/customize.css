@@ -135,6 +135,9 @@ a:hover {
 
 footer {
   background-color: #2b2d2e;
+  background-image: url(../img/backrbnb.png);
+  background-position: center;
+  background-size: cover;
 }
 
 footer .container {
